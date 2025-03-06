@@ -255,6 +255,7 @@ DEPENDENCIES = [
     # Pygments 2.19.0 improperly renders .ini files with dictionaries as values
     # See https://github.com/pygments/pygments/issues/2834
     "pygments>=2.0.1,!=2.19.0",
+    "pygtrie>=2.5.0,<3.0",
     "pyjwt>=2.0.0",
     "python-daemon>=3.0.0",
     "python-dateutil>=2.7.0",
@@ -274,6 +275,7 @@ DEPENDENCIES = [
     "sqlalchemy>=1.4.49,<2.0",
     "sqlalchemy-jsonfield>=1.0",
     "sqlalchemy-utils>=0.41.2",
+    "structlog>=25.1.0",
     "tabulate>=0.7.5",
     "tenacity>=8.0.0,!=8.2.0",
     "termcolor>=2.5.0",
